@@ -6,18 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="">
-        <input type="text" name="" id="" placeholder="email"> <br>
-        <input type="text" placeholder=" senha">
-        <button type="submit"> confirmar</button>
+    <br>
+    <form action="" method="POST">
+        <input type="text" placeholder="pesquisa" name="pesquisa">
+        <button type="submit">Pesquisar</button>
     </form>
-
-    <a href="{{url_for('contatos')}}">url para contatos</a>
-
-
-    <h1> Bem vindo {{usuario}}</h1>
-    <h2> tenho {{idade}} anos </h2>
-
-    <h3>bem vindo {{dados.usuario}} vc tem {{dados.idade}} anos</h3>
+     <p> valor é {{valorPesquisa}}</p>
 </body>  
 </html>
